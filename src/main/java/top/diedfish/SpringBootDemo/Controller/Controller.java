@@ -1,4 +1,4 @@
-package top.diedfish.SpringBootDemo;
+package top.diedfish.SpringBootDemo.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,5 +24,9 @@ public class Controller {
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+    }
+    @RequestMapping("/login")
+    String login(){
+        return "login";
     }
 }

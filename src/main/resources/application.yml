@@ -1,0 +1,8 @@
+spring:
+  devtools:
+    restart:
+      enable :true
+server:
+  port: 8088
+logging:
+  file: app.log
